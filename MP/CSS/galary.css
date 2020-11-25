@@ -1,0 +1,136 @@
+body{
+    height: max-content;
+}
+
+.header{
+    display: flex;
+    height: max-content;
+
+}
+.header::before{
+    content: "";
+    position: absolute;
+    background: url(../PHOTO/NE.jpeg) no-repeat center center;
+    
+    background-size: cover;
+    width: 100%;
+    height: 33%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.logo{
+    margin-right: auto;
+}
+
+.logo a h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: red;
+    text-decoration: none;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.sign{
+    
+    padding: 10px 0px 5px;
+    margin: 10px;
+    background: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+.sign a{
+    color: white;
+}
+
+.sign:hover{
+    cursor: pointer;
+}
+
+
+.h{
+    
+    
+}
+.h h1{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.con a h2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.con a :hover{
+    color: brown;
+    font-size: 40px;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex-basis: 25%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.col img{
+    width: 100%;
+    
+    /*margin-right: 10px;
+    padding: 50px 50px;
+    flex-basis: 25%;
+    height: 350px;*/
+}
+.col img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 0;
+}
+
+#footer{
+    margin-top: 3px;
+    background: black;
+    padding: 3px;
+}
+.scontainer p{
+    color: white;
+    margin-left: 250px;
+    
+}
+#link{
+   display: flex;
+   margin-top: 5px;
+   background: black;
+   margin-left: 200px;
+   
+   
+}
+a{
+   text-decoration: none;
+   margin: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   padding-top: 10px;
+   color: blanchedalmond;
+}
+#link ul{
+   margin-right: 50px;
+}
+#link li{
+   margin-bottom: 15px;
+} 
+
+#link a:hover{
+   color:black;
+   background: white;
+}

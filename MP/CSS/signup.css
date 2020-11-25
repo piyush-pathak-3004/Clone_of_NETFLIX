@@ -1,0 +1,110 @@
+body{
+    height: 560px;
+    background: gray;
+}
+/*body::before{
+    content: "";
+    
+    position: absolute;
+    background: url(../PHOTO/NE.jpeg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}*/
+
+.parent{
+    
+    height: 560px;
+    /*border: 2px solid red;*/
+    align-items: center;
+    
+}
+.parent::before{
+    content: "";
+    
+    position: absolute;
+    background: url(../PHOTO/NE.jpeg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.parent a h1 {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    
+    
+}
+.parent a:hover{
+    text-decoration: none;
+}
+.log{
+    /*background: black;*/
+    width: 450px;
+    margin-left: 560px;
+    margin-right: 550px;
+    margin-top: 150px;
+    height: 300px;
+    /*opacity: 0.8;*/
+}
+.log p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.email{
+    width: 200px;
+    height: 100px;
+    
+    
+}
+.email input[type=email]{
+    
+    height: 48px;
+    width: 314px;
+    margin-bottom: 20px;
+}
+.email input[type=password]{
+    height: 48px;
+    width: 314px;
+    margin-bottom: 20px;
+}
+.email button{
+    width: 325px;
+    height: 48px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#r input[type=checkbox]{
+    color: white;
+}
+.p2{
+    
+   margin-top: 150px;
+}
+.p2 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+a:hover{
+    
+    text-decoration: underline;
+}
+

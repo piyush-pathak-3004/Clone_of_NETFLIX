@@ -1,0 +1,253 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background: gray;
+}
+.container{
+    
+    height: 698px;
+    padding: 0px;  
+    align-items: center;
+
+}
+.container::before{
+    content: "";
+    position: absolute;
+    background: url(../PHOTO/NE.jpeg) no-repeat center center;
+
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    
+}
+.header{
+    display: flex;
+    height: max-content;
+
+}
+.logo{
+    margin-right: auto;
+}
+/*.logo img{
+    width: 100px;
+    margin: 10px;
+}*/
+.logo a h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: red;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.sign{
+    
+    padding: 10px 0px 5px;
+    margin: 10px;
+    background: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+.sign a{
+    color: white;
+}
+
+.sign:hover{
+    cursor: pointer;
+}
+
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.get_started{
+    align-items: center;
+    text-align: center;
+}
+.get_started p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+form.example input[type=email] {
+    
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 50%;
+    background: #f1f1f1;
+  }
+  
+  
+  form.example button {
+    height: 45px;
+    width: 20%;
+    /*padding: 10px;*/
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgb(245, 90, 90);
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  
+  .row{
+      
+    margin: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: black;
+    padding: 50px;
+  }
+  .col1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+  }
+  .col1 h1{
+      margin-bottom: 40px;
+  }
+  .col1 h3{
+      margin-top: 10px;
+  }
+  #footer{
+    background: black;
+    height: 300px;
+    align-items: center;
+ }
+  .scontainer{
+    align-items: center;
+    margin: auto auto;
+    margin-top: auto;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 20px;
+
+  }
+  .scontainer p{
+      color: blanchedalmond;
+      margin: auto auto;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+  }
+  .c{
+      
+      text-align: center;
+      padding: 70px 45px;
+      background: black;
+      /*
+      border: 2px solid red;*/
+  }
+  
+  .q h1{
+    color: white;
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .list{
+      width: 75%;
+      margin: 2em auto;
+  }
+  .list-item{
+      display: list-item;
+      text-align: -webkit-match-parent;
+      
+      margin: 0 150px 8px 143px;
+  }
+  .list-item :hover{
+      cursor: pointer;
+  }
+  .faq{
+      padding: 1.8rem 2.2rem 1.8rem 1.2rem;
+      margin-bottom: 1px;
+      font-weight: 400;
+      
+      position: relative;
+      width: 100%;
+      border: 0;
+      background:#303030;
+      text-align: left;
+      color: white;
+      font-size: 1.5rem;
+  }
+  span{
+      font-size: 1.5rem;
+    
+  }
+  .pa{
+      margin-top: 7px;
+      background:#303030 ;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 400;
+      display: none;
+      align-items: left;
+     
+  }
+  #footer{
+      margin-top: 5px;
+  }
+ #link{
+     display: flex;
+     margin-top: 5px;
+ }
+ a{
+     text-decoration: none;
+     margin: 10px;
+     margin-bottom: 10px;
+     padding: 10px;
+     padding-top: 10px;
+     color: blanchedalmond;
+ }
+ #link ul{
+     margin-right: 50px;
+ }
+ #link li{
+     margin-bottom: 15px;
+ } 
+ 
+ #link a:hover{
+     color:black;
+     background: white;
+ }
